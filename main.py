@@ -26,7 +26,6 @@ def main():
     print("Write to file")
     with open(FILENAME, "w") as f:
         f.write(vcard)
-        f.close()
     print("Finished!")
 
 if __name__ == "__main__":
